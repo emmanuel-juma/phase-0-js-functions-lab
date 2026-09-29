@@ -29,7 +29,7 @@ function calculateDiscountedPrice(originalPrice,discountPercentage){
     const discount = originalPrice * (discountPercentage / 100); return originalPrice - discount;
 }
 
-console.log(calculate(100));
+console.log(calculateTax(100));
 console.log(convertToUpperCase("Hello there"));
 console.log(findMaximum(22,27));
 console.log(isPalindrome("level"));
